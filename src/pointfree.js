@@ -31,37 +31,37 @@ const {
  */
 
 // inc :: Number -> Number
-const inc = add(1)
+const inc = undefined
 
 // negate :: Number -> Number
-const negate = multiply(-1)
+const negate = undefined
 
 // negateThenInc :: Number -> Number
-const negateThenInc = compose(inc, negate)
+const negateThenInc = undefined
 // const negateThenInc = pipe(negate, inc)
 
 // doubleAndDec :: Number -> Number
-const doubleThenDec = pipe(multiply(2), add(-1))
+const doubleThenDec = undefined
 
 // ask :: String -> String
-const ask = append('?')
+const ask = undefined
 
 // incAll :: [Number] -> [Number]
-const incAll = map(inc)
+const incAll = undefined
 
 // incThenNegateAll :: [Number] -> [Number]
-const incThenNegateAll = map(pipe(inc, negate))
+const incThenNegateAll = undefined
 // const incThenNegateAll = pipe(map(inc), map(negate))
 // const incThenNegateAll = pipe(pipe, map)(inc, negate)
 
 // sum :: [Number] -> Number
-const sum = reduce(add, 0)
+const sum = undefined
 
 // product :: [Number] -> Number
-const product = reduce(multiply, 1)
+const product = undefined
 
 // isSpace :: String -> Boolean
-const isSpace = equals(' ')
+const isSpace = undefined
 
 // still working on this…
 
